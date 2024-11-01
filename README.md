@@ -31,15 +31,19 @@ To get started with D_FAST_all, replace all instances of `your_github_name/D_FAS
 - Matplotlib
 - ObsPy
 
-### Installation Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/GongniNDC/D_FAST_all.git
-   ```
-2. Navigate to the directory:
-   ```bash
-   cd D_FAST_all
-   ```
+If you want to run your own seismic waveform data using the code we provided, follow these steps:
+
+1. **Preprocess the waveform**: Use `process_signal_waveforms.py` in the `preprocess` folder to filter the waveform and extract it based on the P-wave arrival time, saving it in `.npy` format.
+   - Refer to the waveform data in our provided data folder `earthquake\B023\P_waveform`.
+
+2. **Feature Extraction**: Use `LEDS.py` in the `LEDS` folder to extract features and generate binary fingerprints in `.txt` format.
+   - Create a new folder for saving waveform fingerprints (refer to the fingerprint data in our provided data folder `earthquake\B023\fp`).
+
+3. **Generate Fingerprint Database**: Use `fp_database.py` in the `WMPLSH` folder to generate the fingerprint database in `.pkl` format.
+
+4. **Generate Hash Index Table**: Run `index_table.py` to create the hash index table.
+
+5. **Run Detection**: Run `wmplsh.py` to print the detection results and generate the precision-recall curve.
 
 ---
 
