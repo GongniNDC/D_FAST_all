@@ -104,4 +104,4 @@ To download the dataset, visit [PNW-ML](https://github.com/niyiyu/PNW-ML). Use t
 ---
 
 ## License
-This project is licensed under the MIT License. See `LICENSE.txt` for details.
+This project is licensed under the GPL3 License. See `LICENSE` for details.
