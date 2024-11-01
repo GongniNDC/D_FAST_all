@@ -1,23 +1,10 @@
-```markdown
 # D_FAST_all
-
-D_FAST_all is a Python-based project designed to run on the PyCharm platform, implementing a feature extraction and similarity search algorithm for seismic signal detection. This project integrates the D_FAST algorithm and includes a dataset in the Releases directory under `PNWData1`. D_FAST is a waveform-based detection method inspired by Philips' audio fingerprinting algorithm, offering improved detection speed and reduced memory usage compared to the original FAST algorithm. D_FAST maintains strong noise resilience and performs well even under low signal-to-noise ratios (SNR).
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 ---
 
 ## Overview
 
-### Documentation & Demo
-Explore the full documentation for details on installation, functionality, and contribution guidelines.
-
-View Demo · Report Bug · Request Feature
+D_FAST_all is a Python-based project designed to run on the PyCharm platform, implementing a feature extraction and similarity search algorithm for seismic signal detection. This project integrates the D_FAST algorithm and includes a dataset in the Releases directory under `PNWData1`. D_FAST is a waveform-based detection method inspired by Philips' audio fingerprinting algorithm, offering improved detection speed and reduced memory usage compared to the original FAST algorithm. D_FAST maintains strong noise resilience and performs well even under low signal-to-noise ratios (SNR).
 
 ---
 
@@ -27,12 +14,6 @@ View Demo · Report Bug · Request Feature
 - [Installation Steps](#installation-steps)
 - [File Directory Explanation](#file-directory-explanation)
 - [Functionality Overview](#functionality-overview)
-- [Deployment](#deployment)
-- [Frameworks Used](#frameworks-used)
-- [Contributors](#contributors)
-- [How to Contribute](#how-to-contribute)
-- [Version Control](#version-control)
-- [Author](#author)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -45,6 +26,10 @@ To get started with D_FAST_all, replace all instances of `your_github_name/D_FAS
 ### Prerequisites
 - Python 3.x
 - PyCharm IDE
+- NumPy
+- Pandas
+- Matplotlib
+- ObsPy
 
 ### Installation Steps
 1. Clone the repository:
@@ -114,50 +99,5 @@ To download the dataset, visit [PNW-ML](https://github.com/niyiyu/PNW-ML). Use t
 
 ---
 
-## Deployment
-Currently, no specific deployment instructions are provided.
-
-## Frameworks Used
-This project uses the following libraries:
-- **NumPy**: For scientific computing.
-- **Pandas**: For data manipulation.
-- **Matplotlib**: For visualizations.
-- **ObsPy**: For seismic data processing.
-
----
-
-## Contributors
-For a list of contributors, please refer to `CONTRIBUTING.md`.
-
-## How to Contribute
-We welcome contributions that make this open-source project better for the community!
-
-1. Fork the project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
-
-## Version Control
-This project uses Git for version control. You can check available versions in the repository.
-
----
-
-## Author
-Gongni  
-Contact: gong.ni@ndc.org.cn  
-
-You can also view the list of contributors for others who have been involved.
-
 ## License
 This project is licensed under the MIT License. See `LICENSE.txt` for details.
-
-## Acknowledgements
-- GitHub Emoji Cheat Sheet
-- Img Shields
-- Open Source License Selection Guide
-- GitHub Pages
-- Animate.css
-```
-
-This revised README provides a comprehensive overview, installation steps, and clear descriptions of the project's data structure, functionality, and contribution guidelines, making it easier for readers to set up and understand D_FAST_all.
