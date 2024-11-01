@@ -11,17 +11,13 @@ D_FAST_all is a Python-based project designed to run on the PyCharm platform, im
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Installation Steps](#installation-steps)
 - [File Directory Explanation](#file-directory-explanation)
 - [Functionality Overview](#functionality-overview)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
 ## Getting Started
-
-To get started with D_FAST_all, replace all instances of `your_github_name/D_FAST_all` with `your_github_name/your_repository` in the links for proper linking.
 
 ### Prerequisites
 - Python 3.x
